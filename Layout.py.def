@@ -1,0 +1,11 @@
+name = "Layout"
+doc = "Layout information for page."
+fields = {
+    "id": (),
+    "row": ("int"),
+    "col": ("int"),
+    "width": ("int"),
+    "field5": ("str", "Hello", False, "^H"),
+    "field6": ("str", "World", True, None, "Documentation of field6"),
+    "field7": ("list"),
+    "field8": ("dict")}

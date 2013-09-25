@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app:dataModel domain="pooya" xmlns:app="DataModel.xsd" name="Class1">
+    <!--<type name="d">-->
+        <!--<boolean name="df">-->
+            <!--<restriction>-->
+                <!--<notNull/>-->
+            <!--</restriction>-->
+        <!--</boolean>-->
+        <!--<dateTime name="sdg" readonly="true"/>-->
+    <!--</type>-->
+
+    <!--<type name="dd">-->
+        <!--<boolean name="df"/>-->
+        <!--<dateTime name="sdg"/>-->
+        <!--<double name="dggsdg"/>-->
+    <!--</type>-->
+
+    <app:elements name="sfdfh">
+
+        <app:boolean  name="sf">
+            <app:restriction>
+                <app:notNull>111</app:notNull>
+            </app:restriction>
+        </app:boolean>
+
+        <app:currency name="kj">
+            <app:restriction>
+                <app:minValue/>
+                <app:maxValue/>
+                <app:format/>
+                <app:notNull/>
+                <app:notZero/>
+                <app:notEqualTo/>
+                <app:positive/>
+            </app:restriction>
+        </app:currency>
+
+        <app:currency name="dsf" currencyType="US">
+            <app:restriction combination="any">
+                <app:minValue>12</app:minValue>
+                <app:maxValue/>
+                <app:format/>
+                <app:notNull/>
+                <app:notZero/>
+                <app:notEqualTo/>
+                <app:positive/>
+            </app:restriction>
+        </app:currency>
+
+        <app:integer  name="ngd" digits="88">
+            <app:restriction >
+                <app:minValue>1</app:minValue>
+                <app:maxValue>2</app:maxValue>
+                <app:format>3456436</app:format>
+                <app:notNull/>
+                <app:notZero/>
+                <app:notEqualTo/>
+                <app:positive/>
+            </app:restriction>
+        </app:integer>
+
+        <app:list name="emails" type="string">
+            <app:item>
+                Email1
+            </app:item>
+            <app:item>34r3</app:item>
+
+            <app:restriction>
+                <app:minSize/>
+                <app:maxSize/>
+                <app:notContains/>
+
+            </app:restriction>
+        </app:list>
+
+        <app:dateTime name="af" calendarType="Gregorian" timeZone="dsg"/>
+
+        <app:string name="dg" lang="EN">
+            <app:restriction>
+                <app:locale/>
+                <app:notNull/>
+                <app:type/>
+                <app:regex/>
+                <app:maxLen/>
+                <app:minLen/>
+            </app:restriction>
+        </app:string>
+
+        <app:map name="bc">
+            <app:restriction>
+                <app:minSize/>
+                <app:maxSize/>
+                <app:notNull/>
+                <app:notContains/>
+            </app:restriction>
+            <app:item>
+                <app:key>sf</app:key>
+                <app:value>fsf</app:value>
+            </app:item>
+            <app:item>
+                <app:key>sf</app:key>
+                <app:value>fsf</app:value>
+            </app:item>
+        </app:map>
+
+        <app:composition type="d" name="dffff"/>
+
+    </app:elements>
+</app:dataModel>

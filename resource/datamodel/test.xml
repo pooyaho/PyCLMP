@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app:container layout="layout1" xmlns:app="container.xsd" >
+
+    <app:widget>
+        <app:label  location="mainlayout1.cell1" width="115" enabled="true" height="29" horizontalAlignment="center"
+                   label="firstName" name="lblfirstName" source="" tabindex="1" tooltip="jhjhg"
+                   verticalAlignment="top" visible="true"/>
+
+        <app:textBox location="mainlayout1.cell1" height="29" horizontalAlignment="right" label="txt" name="txtFistName"
+                     readonly="false" tabindex="2" tooltip="jhjhg" verticalAlignment="bottom" visible="true"
+                     width="160"/>
+
+        <app:label location="mainlayout1.cell2" width="115" enabled="true" height="29" horizontalAlignment="center"
+                   label="lastName" name="lbllastName" source="" tabindex="1" tooltip="jhjhg" verticalAlignment="top"
+                   visible="true"/>
+
+        <app:textBox location="mainlayout1.cell2" enabled="true" height="29" horizontalAlignment="right" label="txt"
+                     name="txtLastName" readonly="false" tabindex="2" tooltip="jhgj" verticalAlignment="bottom"
+                     visible="true" width="160"/>
+    </app:widget>
+
+</app:container>
